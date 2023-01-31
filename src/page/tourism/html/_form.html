@@ -1,0 +1,55 @@
+<div class="form__wrapper">
+    <form class="form" action="#">
+        <div class="form__header">Туристическое страхование</div>
+        <div class="form__travel flex-container">
+            <div class="form__travel-direction">
+                <p>Направление поездки</p>
+                <input type="text">
+                <div class="example">Например:
+                    <a href="">Шенгенская зона (Европа)</a>
+                    <a href="">Весь мир</a>
+                </div>
+            </div>
+            <div class="form__travel-date from">
+                <div class="crutch"></div>
+                <p>Период поездки</p>
+                <label>От</label>
+                <input type="date" class="date" name="from" value="2019-11-07" min="1922-01-01" max="2023-12-31">
+                <img src="./../img/arrDown.svg" alt="">
+            </div>
+            <div class="form__travel-date to">
+                <p>11 дней</p>
+                <div class="crutch"></div>
+                <label>До</label>
+                <input type="date" class="date" name="to" value="2019-11-07" min="1922-01-01" max="2023-12-31">
+                <img src="./../img/arrDown.svg" alt="">
+            </div>
+        </div>
+        <div class="form__data-header">Данные о туристах</div>
+        <div class="form__tourist">
+            <div class="form__tourist-form">
+                <p class="form__tourist-item">Турист 1</p>
+                <div class="flex-container">
+                    <div class="birfday-date">
+                        <p>Дата рождения</p>
+                        <input type="text">
+                    </div>
+                    <div class="reason">
+                        <p>Цель поездки</p>
+                        <select>
+                            <option value="visit">Посещение родственников</option>
+                            <option value="shopping">Шоппинг</option>
+                            <option value="education">Образование</option>
+                        </select>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form__add flex-container">
+            <div class="form__add-img"><img src="./../img/union.png" alt="">
+            </div><a href="">Добавить туриста</a>
+        </div>
+        <div class="form__button button"><a href="">От 1296 грн - смотреть полисы</a></div>
+    </form>
+</div>

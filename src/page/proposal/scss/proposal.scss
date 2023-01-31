@@ -1,0 +1,97 @@
+.proposal {
+    font-size: 18px;
+    color: #263238;
+    font-weight: 400;
+    padding-bottom: 52px;
+
+    &__item {
+        padding: 38px 0px;
+        background-color: #fff;
+        margin-bottom: 27px;
+        padding-left: 57px;
+        padding-right: 42px;
+
+        .item-image {
+            width: 131px;
+            padding-right: 38px;
+        }
+
+        .item-text {
+            font-size: 16px;
+            padding-right: 10px;
+        }
+
+        .item-discount {
+            position: relative;
+            line-height: 100%;
+            font-size: 18px;
+            font-weight: 600;
+            padding-right: 8px;
+
+            .old-price {
+                font-weight: 500;
+                color: #AEAEAE;
+                position: absolute;
+                left: 0;
+                top: 25px;
+
+                .line {
+                    width: 81px;
+                    height: 0px;
+                    transform: rotate(170.76deg);
+                    border-top: 1px solid #AEAEAE;
+                    position: absolute;
+                    left: -8px;
+                    top: 7px;
+                }
+            }
+        }
+
+        .proposal__item:last-child {
+            margin-bottom: 80px;
+        }
+
+        .item-button {
+            background-color: #FF9504;
+
+            a {
+                padding: 15px 45px;
+            }
+        }
+    }
+}
+
+@media (max-width: 950px) {
+    .proposal__item {
+        display: block;
+        position: relative;
+        text-align: center;
+
+        .item-rating {
+            position: absolute;
+            top: 50px;
+            right: 64px;
+        }
+
+        .item-text {
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        .item-discount {
+            display: inline-block;
+        }
+
+        .item-price {
+            display: inline-block;
+            margin-right: 85px;
+        }
+
+        .item-button {
+            margin: 0 auto;
+            margin-top: 50px;
+            width: 300px;
+        }
+    }
+}

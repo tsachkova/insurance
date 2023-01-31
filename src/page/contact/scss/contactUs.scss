@@ -1,0 +1,181 @@
+.contactUs {
+    background-color: #F8FBFE;
+
+    &__container {
+        align-items: flex-start;
+        margin-top: 37px;
+        justify-content: start;
+        padding-bottom: 90px;
+
+        .contactUs__container-form {
+            position: relative;
+            font-size: 16px;
+            font-weight: 600;
+
+            input {
+                border: 1px solid #D7E1E9;
+                border-radius: 8px;
+                height: 37px;
+                width: 486px;
+                margin-bottom: 25px;
+                margin-top: 7px;
+            }
+
+            .contactUs__container-form-message {
+                height: 122px;
+            }
+
+            &-info {
+                padding-top: 28px;
+                margin-bottom: 0px;
+
+                label {
+                    position: absolute;
+                    top: 0px
+                }
+
+                input {
+                    width: 226px;
+                    margin-right: 24px;
+                    margin-top: 0;
+                }
+
+                .contactUs__container-form-phone::placeholder {
+                    color: #9E9E9E;
+                    opacity: 80%;
+                }
+            }
+
+            .contactUs__container-form-button {
+                margin-top: 6px;
+
+                button {
+                    padding: 21px 55px;
+                    background-color: #FF9504;
+                    border-radius: 50px;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+
+        .contactUs__container-bunner-wrapper {
+            margin-top: -2px;
+            margin-left: 136px;
+
+            .contactUs__container-bunner {
+                position: relative;
+                background-color: #353D52;
+                color: #fff;
+                padding: 68px 0px 58px 63px;
+                width: 633px;
+                border-radius: 8px;
+                overflow: hidden;
+
+                p {
+                    line-height: 50px;
+                    margin-bottom: 28px;
+                }
+
+                ul {
+                    li {
+                        margin-bottom: 16px;
+
+                        a {
+                            color: #fff;
+                            font-size: 24px;
+                        }
+
+                        div {
+
+                            width: 12px;
+                            height: 3px;
+                            background-color: #fff;
+                            display: inline-block;
+                            margin-bottom: 5px;
+                            margin-right: 11px;
+                        }
+                    }
+
+                    li:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+
+                .body-img-line-circle {
+                    width: 435.59px;
+                    height: 435.59px;
+                    border-radius: 180%;
+                    background: repeating-linear-gradient(132deg,
+
+                            #353D52,
+                            #353D52 8px,
+                            #E7EAFF 8px,
+                            #E7EAFF 11px);
+                    opacity: 10%;
+                    position: absolute;
+                    top: -163px;
+                    right: -115px;
+                }
+            }
+        }
+    }
+
+    .contactUs__header {
+        padding-top: 72px;
+
+        h1 {
+            color: #001237;
+        }
+    }
+}
+
+@media (max-width: 1400px) {
+    .contactUs {
+        .contactUs__container-bunner-wrapper {
+            margin-left: 0;
+        }
+    }
+}
+
+@media (max-width: 1260px) {
+    .contactUs {
+        .header {
+            text-align: center;
+        }
+
+        .contactUs__container {
+            display: block;
+            max-width: 700px;
+            margin: 0 auto;
+
+            .contactUs__container-form {
+                max-width: 529px;
+                margin: 0 auto;
+            }
+
+            .contactUs__container-form-button {
+                padding-right: 28px;
+                margin-bottom: 40px;
+
+                button {
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                    width: 405px;
+                }
+            }
+
+            .contactUs__container-form input {
+                margin-bottom: 36px;
+            }
+
+            .contactUs__container-bunner-wrapper {
+                width: 82%;
+
+                .contactUs__container-bunner {
+                    margin: 0 auto;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

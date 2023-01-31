@@ -1,0 +1,123 @@
+@import "../../node_modules/normalize.css/normalize";
+@import "fonts";
+@import "icons";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap&subset=cyrillic-ext);
+
+body {
+    background-color: #F1F7FE;
+    font-size: 18px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    color: #001237;
+}
+
+p {
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 110%;
+}
+
+.line {
+    border-bottom: 1px solid #D7E1E9;
+}
+
+.wrapper {
+    max-width: 1510px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+}
+
+.body-wrapper {
+    max-width: 1278px;
+    margin: 0 auto;
+}
+
+.menu {
+    &__list {
+        display: flex;
+        list-style-type: none;
+
+        li {
+            margin-left: 38.41px;
+        }
+
+        li:first-child {
+            margin-left: 0px;
+        }
+    }
+
+    &__link {
+        font-size: 16px;
+        color: #001237;
+    }
+}
+
+.button {
+    text-align: center;
+    border-radius: 50px;
+
+    a,
+    button {
+        display: block;
+        font-weight: 600;
+        font-size: 16px;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 100%;
+        color: #fff;
+    }
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin slide-box($width, $line-height ) {
+    background-color: #fff;
+    box-shadow: -1px 2px 30px rgb(123 139 181 / 21%);
+    font-size: 16px;
+    max-width: $width;
+    line-height: $line-height;
+    opacity: 80%;
+    border-radius: 10px;
+}
+
+@import "./../block/bunner/scss/bunner.scss";
+@import "./../block/header/scss/header.scss";
+@import "./../block/footer/scss/footer.scss";
+@import "./../block/tubSlider/scss/tubSlider.scss";
+@import "./../block/star/scss/star.scss";
+@import "./../block/slider/scss/slider.scss";
+@import "./../block/accordeon/scss/accordeon.scss";
+@import "./../block/online/scss/online.scss";
+
+@import "./../page/proposal/scss/style.scss";
+@import "./../page/contact/scss/style.scss";
+@import "./../page/about/scss/style.scss";
+@import "./../page/tourism/scss/style.scss";

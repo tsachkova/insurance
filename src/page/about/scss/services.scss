@@ -1,0 +1,73 @@
+.services {
+    background-color: #fff;
+    padding: 96px 0;
+
+    &__header {
+        font-size: 46px;
+        font-weight: 600;
+        line-height: 120%;
+        text-align: center;
+    }
+
+    &__img {
+        margin-top: 45px;
+
+        a {
+            position: relative;
+            padding-right: 18px;
+
+            span {
+                font-family: "Proxima Nova";
+                position: absolute;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 22px;
+                color: #fff;
+                bottom: 27px;
+                left: 45px;
+                letter-spacing: 1px;
+                z-index: 1;
+            }
+        }
+
+        a:last-child {
+            padding-right: 0;
+            margin-right: -24px;
+        }
+    }
+}
+
+@media (max-width: 1580px) {
+    .services__img {
+        a {
+            margin-left: 10%;
+
+            img {
+                width: 30%;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1260px) {
+    .services__img {
+        display: block;
+        text-align: center;
+
+        a {
+            margin: 0;
+            padding: 0;
+
+            img {
+                width: 80%;
+                margin-bottom: 20px;
+                padding: 0;
+            }
+        }
+
+        a:last-child {
+            margin: 0;
+        }
+    }
+}
