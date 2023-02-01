@@ -416,7 +416,7 @@ template {
 
 @font-face {
   font-family: "icomoon";
-  src: url("../../fonts/icomoon.woff") format("woff");
+  src: url("/fonts/icomoon.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -978,7 +978,7 @@ header {
   padding-right: 10px;
 }
 
-.slider-rev__body-container .slide > div {
+.slider-rev__body-container .slide>div {
   background-color: #fff;
   -webkit-box-shadow: -1px 2px 30px rgba(123, 139, 181, 0.21);
   box-shadow: -1px 2px 30px rgba(123, 139, 181, 0.21);
@@ -993,25 +993,25 @@ header {
   padding-bottom: 50px;
 }
 
-.slider-rev__body-container .slide > div .slide__raiting {
+.slider-rev__body-container .slide>div .slide__raiting {
   margin-bottom: 12px;
   margin-left: -5px;
 }
 
-.slider-rev__body-container .slide > div .rating-star {
+.slider-rev__body-container .slide>div .rating-star {
   height: 20px;
   width: 20px;
 }
 
-.slider-rev__body-container .slide > div .slide__text {
+.slider-rev__body-container .slide>div .slide__text {
   margin-bottom: 38px;
 }
 
-.slider-rev__body-container .slide > div .slide__rev-info .slide__rev-info-foto {
+.slider-rev__body-container .slide>div .slide__rev-info .slide__rev-info-foto {
   float: left;
 }
 
-.slider-rev__body-container .slide > div .slide__rev-info .slide__rev-info-name {
+.slider-rev__body-container .slide>div .slide__rev-info .slide__rev-info-name {
   padding-top: 8px;
   padding-left: 88px;
   font-weight: 600;
@@ -1020,7 +1020,7 @@ header {
   color: #263238;
 }
 
-.slider-rev__body-container .slide > div .slide__rev-info .slide__rev-info-name p {
+.slider-rev__body-container .slide>div .slide__rev-info .slide__rev-info-name p {
   font-weight: 400;
   font-size: 14px;
   line-height: 146%;
@@ -1730,7 +1730,7 @@ header {
   padding-bottom: 27px;
 }
 
-.form__travel > div {
+.form__travel>div {
   position: relative;
 }
 
@@ -1796,16 +1796,16 @@ header {
   z-index: 2;
 }
 
-.form__travel-date > input::-webkit-calendar-picker-indicator {
+.form__travel-date>input::-webkit-calendar-picker-indicator {
   opacity: 0;
   margin-right: 15px;
 }
 
-.form__travel .from > p {
+.form__travel .from>p {
   left: 25px;
 }
 
-.form__travel .to > p {
+.form__travel .to>p {
   right: -11px;
   font-weight: 500;
   color: #2155CF;
@@ -1831,7 +1831,7 @@ header {
   position: relative;
 }
 
-.form .form__tourist-form > p {
+.form .form__tourist-form>p {
   position: relative;
   font-weight: 600;
   font-size: 14px;
@@ -1841,22 +1841,22 @@ header {
   margin-bottom: 35px;
 }
 
-.form .form__tourist-form > div {
+.form .form__tourist-form>div {
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
 }
 
-.form .form__tourist-form > div div {
+.form .form__tourist-form>div div {
   position: relative;
 }
 
-.form .form__tourist-form > div .birfday-date input {
+.form .form__tourist-form>div .birfday-date input {
   width: 200px;
   height: 44px;
 }
 
-.form .form__tourist-form > div .reason select {
+.form .form__tourist-form>div .reason select {
   width: 721px;
   height: 46px;
   background-color: #fff;
@@ -1866,7 +1866,7 @@ header {
   padding-left: 13px;
 }
 
-.form .form__tourist-form > div p {
+.form .form__tourist-form>div p {
   top: -30px;
 }
 
@@ -2033,7 +2033,7 @@ header {
   color: #1A1B20;
 }
 
-.docs .docs__body > div {
+.docs .docs__body>div {
   background-color: #fff;
   -webkit-box-shadow: -1px 2px 30px rgba(123, 139, 181, 0.21);
   box-shadow: -1px 2px 30px rgba(123, 139, 181, 0.21);
@@ -2096,7 +2096,7 @@ header {
     margin-bottom: 20px;
   }
 
-  .docs .docs__body > div {
+  .docs .docs__body>div {
     padding-left: 4%;
     padding-right: 4%;
   }
@@ -2332,7 +2332,7 @@ header {
     display: block;
   }
 
-  .benefits__items > div {
+  .benefits__items>div {
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: start;
@@ -2341,7 +2341,7 @@ header {
     margin-top: 20px;
   }
 
-  .benefits__items > div a {
+  .benefits__items>div a {
     font-size: 28px;
   }
 
@@ -2350,7 +2350,7 @@ header {
     text-align: center;
   }
 
-  .docs .docs__body > div {
+  .docs .docs__body>div {
     display: inline-block;
     width: 46%;
     margin-right: 2%;
@@ -2359,7 +2359,7 @@ header {
     padding-top: 0;
   }
 
-  .docs .docs__body > div img {
+  .docs .docs__body>div img {
     width: 100%;
   }
 }
@@ -2467,7 +2467,7 @@ header {
     width: 100%;
   }
 
-  .docs .docs__body > div {
+  .docs .docs__body>div {
     width: 80%;
   }
 }
@@ -2724,7 +2724,7 @@ header {
     text-align: center;
   }
 
-  .form__tourist-form .flex-container > div p {
+  .form__tourist-form .flex-container>div p {
     font-size: 14px;
   }
 }
