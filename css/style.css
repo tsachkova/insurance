@@ -416,7 +416,7 @@ template {
 
 @font-face {
   font-family: "icomoon";
-  src: url("fonts/icomoon.woff") format("woff");
+  src: url("../fonts/icomoon.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -978,7 +978,7 @@ header {
   padding-right: 10px;
 }
 
-.slider-rev__body-container .slide>div {
+.slider-rev__body-container .slide > div {
   background-color: #fff;
   -webkit-box-shadow: -1px 2px 30px rgba(123, 139, 181, 0.21);
   box-shadow: -1px 2px 30px rgba(123, 139, 181, 0.21);
@@ -993,25 +993,25 @@ header {
   padding-bottom: 50px;
 }
 
-.slider-rev__body-container .slide>div .slide__raiting {
+.slider-rev__body-container .slide > div .slide__raiting {
   margin-bottom: 12px;
   margin-left: -5px;
 }
 
-.slider-rev__body-container .slide>div .rating-star {
+.slider-rev__body-container .slide > div .rating-star {
   height: 20px;
   width: 20px;
 }
 
-.slider-rev__body-container .slide>div .slide__text {
+.slider-rev__body-container .slide > div .slide__text {
   margin-bottom: 38px;
 }
 
-.slider-rev__body-container .slide>div .slide__rev-info .slide__rev-info-foto {
+.slider-rev__body-container .slide > div .slide__rev-info .slide__rev-info-foto {
   float: left;
 }
 
-.slider-rev__body-container .slide>div .slide__rev-info .slide__rev-info-name {
+.slider-rev__body-container .slide > div .slide__rev-info .slide__rev-info-name {
   padding-top: 8px;
   padding-left: 88px;
   font-weight: 600;
@@ -1020,7 +1020,7 @@ header {
   color: #263238;
 }
 
-.slider-rev__body-container .slide>div .slide__rev-info .slide__rev-info-name p {
+.slider-rev__body-container .slide > div .slide__rev-info .slide__rev-info-name p {
   font-weight: 400;
   font-size: 14px;
   line-height: 146%;
@@ -1236,32 +1236,32 @@ header {
   background-color: #fff;
 }
 
-.greenKard {
+.green-card {
   margin-top: 60px;
   background-color: #fff;
 }
 
-.greenKard__head {
+.green-card__head {
   padding: 32px 0px 32px 41px;
 }
 
-.greenKard h1 {
+.green-card h1 {
   -webkit-margin-before: 0;
   margin-block-start: 0;
   color: #001237;
 }
 
-.greenKard__description {
+.green-card__description {
   padding: 30px 43px 20px 47px;
 }
 
-.greenKard__description div {
+.green-card__description div {
   font-size: 16px;
   line-height: 19px;
   color: #263238;
 }
 
-.greenKard__description div p:last-child {
+.green-card__description div p:last-child {
   padding-top: 5px;
   font-weight: 600;
   font-size: 18px;
@@ -1269,30 +1269,30 @@ header {
   color: #001237;
 }
 
-.greenKard__description .description-block-wrapper {
+.green-card__description .description-block-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.greenKard__description .description-block-wrapper div {
+.green-card__description .description-block-wrapper div {
   margin-right: 116px;
 }
 
-.greenKard__description .description-block-wrapper div:last-child {
+.green-card__description .description-block-wrapper div:last-child {
   margin-right: 0px;
 }
 
-.greenKard__button-wrapper {
+.green-card__button-wrapper {
   margin-top: -7px;
 }
 
-.greenKard__button {
+.green-card__button {
   width: 245px;
   border: 2px solid #2155CF;
 }
 
-.greenKard__button a {
+.green-card__button a {
   color: #2155CF;
   padding: 20px 0px;
   display: inline-block;
@@ -1300,7 +1300,7 @@ header {
   letter-spacing: 3px;
 }
 
-.greenKard__button a:before {
+.green-card__button a:before {
   font-family: "icomoon";
   font-weight: 400;
   font-size: 16px;
@@ -1439,11 +1439,11 @@ header {
   padding-top: 73px;
 }
 
-.contactUs {
+.contact-us {
   background-color: #F8FBFE;
 }
 
-.contactUs__container {
+.contact-us__container {
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
@@ -1454,13 +1454,13 @@ header {
   padding-bottom: 90px;
 }
 
-.contactUs__container .contactUs__container-form {
+.contact-us__container .contact-us__container-form {
   position: relative;
   font-size: 16px;
   font-weight: 600;
 }
 
-.contactUs__container .contactUs__container-form input {
+.contact-us__container .contact-us__container-form input {
   border: 1px solid #D7E1E9;
   border-radius: 8px;
   height: 37px;
@@ -1469,68 +1469,68 @@ header {
   margin-top: 7px;
 }
 
-.contactUs__container .contactUs__container-form .contactUs__container-form-message {
+.contact-us__container .contact-us__container-form .contact-us__container-form-message {
   height: 122px;
 }
 
-.contactUs__container .contactUs__container-form-info {
+.contact-us__container .contact-us__container-form-info {
   padding-top: 28px;
   margin-bottom: 0px;
 }
 
-.contactUs__container .contactUs__container-form-info label {
+.contact-us__container .contact-us__container-form-info label {
   position: absolute;
   top: 0px;
 }
 
-.contactUs__container .contactUs__container-form-info input {
+.contact-us__container .contact-us__container-form-info input {
   width: 226px;
   margin-right: 24px;
   margin-top: 0;
 }
 
-.contactUs__container .contactUs__container-form-info .contactUs__container-form-phone::-webkit-input-placeholder {
+.contact-us__container .contact-us__container-form-info .contact-us__container-form-phone::-webkit-input-placeholder {
   color: #9E9E9E;
   opacity: 80%;
 }
 
-.contactUs__container .contactUs__container-form-info .contactUs__container-form-phone::-moz-placeholder {
+.contact-us__container .contact-us__container-form-info .contact-us__container-form-phone::-moz-placeholder {
   color: #9E9E9E;
   opacity: 80%;
 }
 
-.contactUs__container .contactUs__container-form-info .contactUs__container-form-phone:-ms-input-placeholder {
+.contact-us__container .contact-us__container-form-info .contact-us__container-form-phone:-ms-input-placeholder {
   color: #9E9E9E;
   opacity: 80%;
 }
 
-.contactUs__container .contactUs__container-form-info .contactUs__container-form-phone::-ms-input-placeholder {
+.contact-us__container .contact-us__container-form-info .contact-us__container-form-phone::-ms-input-placeholder {
   color: #9E9E9E;
   opacity: 80%;
 }
 
-.contactUs__container .contactUs__container-form-info .contactUs__container-form-phone::placeholder {
+.contact-us__container .contact-us__container-form-info .contact-us__container-form-phone::placeholder {
   color: #9E9E9E;
   opacity: 80%;
 }
 
-.contactUs__container .contactUs__container-form .contactUs__container-form-button {
+.contact-us__container .contact-us__container-form .contact-us__container-form-button {
   margin-top: 6px;
 }
 
-.contactUs__container .contactUs__container-form .contactUs__container-form-button button {
+.contact-us__container .contact-us__container-form .contact-us__container-form-button button {
   padding: 21px 55px;
   background-color: #FF9504;
   border-radius: 50px;
   letter-spacing: 1px;
 }
 
-.contactUs__container .contactUs__container-bunner-wrapper {
+.contact-us__container .contact-us__container-bunner-wrapper {
   margin-top: -2px;
   margin-left: 136px;
 }
 
-.contactUs__container .contactUs__container-bunner-wrapper .contactUs__container-bunner {
+.contact-us__container .contact-us__container-bunner-wrapper .contact-us__container-bunner {
   position: relative;
   background-color: #353D52;
   color: #fff;
@@ -1540,21 +1540,21 @@ header {
   overflow: hidden;
 }
 
-.contactUs__container .contactUs__container-bunner-wrapper .contactUs__container-bunner p {
+.contact-us__container .contact-us__container-bunner-wrapper .contact-us__container-bunner p {
   line-height: 50px;
   margin-bottom: 28px;
 }
 
-.contactUs__container .contactUs__container-bunner-wrapper .contactUs__container-bunner ul li {
+.contact-us__container .contact-us__container-bunner-wrapper .contact-us__container-bunner ul li {
   margin-bottom: 16px;
 }
 
-.contactUs__container .contactUs__container-bunner-wrapper .contactUs__container-bunner ul li a {
+.contact-us__container .contact-us__container-bunner-wrapper .contact-us__container-bunner ul li a {
   color: #fff;
   font-size: 24px;
 }
 
-.contactUs__container .contactUs__container-bunner-wrapper .contactUs__container-bunner ul li div {
+.contact-us__container .contact-us__container-bunner-wrapper .contact-us__container-bunner ul li div {
   width: 12px;
   height: 3px;
   background-color: #fff;
@@ -1563,11 +1563,11 @@ header {
   margin-right: 11px;
 }
 
-.contactUs__container .contactUs__container-bunner-wrapper .contactUs__container-bunner ul li:last-child {
+.contact-us__container .contact-us__container-bunner-wrapper .contact-us__container-bunner ul li:last-child {
   margin-bottom: 0;
 }
 
-.contactUs__container .contactUs__container-bunner-wrapper .contactUs__container-bunner .body-img-line-circle {
+.contact-us__container .contact-us__container-bunner-wrapper .contact-us__container-bunner .body-img-line-circle {
   width: 435.59px;
   height: 435.59px;
   border-radius: 180%;
@@ -1579,15 +1579,15 @@ header {
   right: -115px;
 }
 
-.contactUs .contactUs__header {
+.contact-us .contact-us__header {
   padding-top: 72px;
 }
 
-.contactUs .contactUs__header h1 {
+.contact-us .contact-us__header h1 {
   color: #001237;
 }
 
-.about__tubSlider-wrapper {
+.about__tubslider-wrapper {
   padding-top: 92px;
   padding-bottom: 100px;
   background-color: #F8FBFE;
@@ -1730,7 +1730,7 @@ header {
   padding-bottom: 27px;
 }
 
-.form__travel>div {
+.form__travel > div {
   position: relative;
 }
 
@@ -1796,16 +1796,16 @@ header {
   z-index: 2;
 }
 
-.form__travel-date>input::-webkit-calendar-picker-indicator {
+.form__travel-date > input::-webkit-calendar-picker-indicator {
   opacity: 0;
   margin-right: 15px;
 }
 
-.form__travel .from>p {
+.form__travel .from > p {
   left: 25px;
 }
 
-.form__travel .to>p {
+.form__travel .to > p {
   right: -11px;
   font-weight: 500;
   color: #2155CF;
@@ -1820,10 +1820,11 @@ header {
 }
 
 .form .form__tourist {
-  margin-bottom: 21px;
+  margin-bottom: 11px;
 }
 
 .form .form__tourist-form {
+  margin-bottom: 10px;
   border: 1px #DEE5EC solid;
   background-color: #F8FBFE;
   border-radius: 10px;
@@ -1831,7 +1832,7 @@ header {
   position: relative;
 }
 
-.form .form__tourist-form>p {
+.form .form__tourist-form > p {
   position: relative;
   font-weight: 600;
   font-size: 14px;
@@ -1841,22 +1842,22 @@ header {
   margin-bottom: 35px;
 }
 
-.form .form__tourist-form>div {
+.form .form__tourist-form > div {
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
 }
 
-.form .form__tourist-form>div div {
+.form .form__tourist-form > div div {
   position: relative;
 }
 
-.form .form__tourist-form>div .birfday-date input {
+.form .form__tourist-form > div .birfday-date input {
   width: 200px;
   height: 44px;
 }
 
-.form .form__tourist-form>div .reason select {
+.form .form__tourist-form > div .reason select {
   width: 721px;
   height: 46px;
   background-color: #fff;
@@ -1866,7 +1867,7 @@ header {
   padding-left: 13px;
 }
 
-.form .form__tourist-form>div p {
+.form .form__tourist-form > div p {
   top: -30px;
 }
 
@@ -1893,9 +1894,10 @@ header {
   position: absolute;
   left: 10px;
   top: 9px;
+  pointer-events: none;
 }
 
-.form .form__add a {
+.form .form__add span {
   font-size: 16px;
   line-height: 100%;
   margin-top: 10px;
@@ -2033,7 +2035,7 @@ header {
   color: #1A1B20;
 }
 
-.docs .docs__body>div {
+.docs .docs__body > div {
   background-color: #fff;
   -webkit-box-shadow: -1px 2px 30px rgba(123, 139, 181, 0.21);
   box-shadow: -1px 2px 30px rgba(123, 139, 181, 0.21);
@@ -2045,21 +2047,25 @@ header {
   padding: 40px 80px;
 }
 
-.tourism__tubSlider-wrapper {
+.tourism__tubslider-wrapper {
   padding-top: 110px;
-  padding-bottom: 151px;
+  padding-bottom: 85px;
 }
 
 .tourism__slider-wrapper {
   padding-bottom: 82px;
+  background-color: #fff;
+  padding-top: 66px;
 }
 
 .tourism__accordeon-wrapper {
   padding-bottom: 100px;
+  background-color: #fff;
 }
 
 .tourism__bunner-wrapper {
   padding-bottom: 83px;
+  background-color: #fff;
 }
 
 @media (max-width: 1580px) {
@@ -2096,7 +2102,7 @@ header {
     margin-bottom: 20px;
   }
 
-  .docs .docs__body>div {
+  .docs .docs__body > div {
     padding-left: 4%;
     padding-right: 4%;
   }
@@ -2146,7 +2152,7 @@ header {
     padding: 101px 20px 80px 20px;
   }
 
-  .contactUs .contactUs__container-bunner-wrapper {
+  .contact-us .contact-us__container-bunner-wrapper {
     margin-left: 0;
   }
 
@@ -2236,41 +2242,41 @@ header {
     padding-bottom: 30px;
   }
 
-  .contactUs .header {
+  .contact-us .header {
     text-align: center;
   }
 
-  .contactUs .contactUs__container {
+  .contact-us .contact-us__container {
     display: block;
     max-width: 700px;
     margin: 0 auto;
   }
 
-  .contactUs .contactUs__container .contactUs__container-form {
+  .contact-us .contact-us__container .contact-us__container-form {
     max-width: 529px;
     margin: 0 auto;
   }
 
-  .contactUs .contactUs__container .contactUs__container-form-button {
+  .contact-us .contact-us__container .contact-us__container-form-button {
     padding-right: 28px;
     margin-bottom: 40px;
   }
 
-  .contactUs .contactUs__container .contactUs__container-form-button button {
+  .contact-us .contact-us__container .contact-us__container-form-button button {
     margin: 0 auto;
     margin-bottom: 20px;
     width: 405px;
   }
 
-  .contactUs .contactUs__container .contactUs__container-form input {
+  .contact-us .contact-us__container .contact-us__container-form input {
     margin-bottom: 36px;
   }
 
-  .contactUs .contactUs__container .contactUs__container-bunner-wrapper {
+  .contact-us .contact-us__container .contact-us__container-bunner-wrapper {
     width: 82%;
   }
 
-  .contactUs .contactUs__container .contactUs__container-bunner-wrapper .contactUs__container-bunner {
+  .contact-us .contact-us__container .contact-us__container-bunner-wrapper .contact-us__container-bunner {
     margin: 0 auto;
     width: 100%;
   }
@@ -2332,7 +2338,7 @@ header {
     display: block;
   }
 
-  .benefits__items>div {
+  .benefits__items > div {
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: start;
@@ -2341,7 +2347,7 @@ header {
     margin-top: 20px;
   }
 
-  .benefits__items>div a {
+  .benefits__items > div a {
     font-size: 28px;
   }
 
@@ -2350,7 +2356,7 @@ header {
     text-align: center;
   }
 
-  .docs .docs__body>div {
+  .docs .docs__body > div {
     display: inline-block;
     width: 46%;
     margin-right: 2%;
@@ -2359,7 +2365,7 @@ header {
     padding-top: 0;
   }
 
-  .docs .docs__body>div img {
+  .docs .docs__body > div img {
     width: 100%;
   }
 }
@@ -2369,28 +2375,28 @@ header {
     display: none;
   }
 
-  .greenKard__head {
+  .green-card__head {
     text-align: center;
   }
 
-  .greenKard__description {
+  .green-card__description {
     display: block;
   }
 
-  .greenKard__description .description-block-wrapper {
+  .green-card__description .description-block-wrapper {
     margin: 0 auto;
     display: block;
   }
 
-  .greenKard__description .description-block-wrapper div {
+  .green-card__description .description-block-wrapper div {
     margin: 0;
   }
 
-  .greenKard__description .description-block-wrapper p {
+  .green-card__description .description-block-wrapper p {
     text-align: center;
   }
 
-  .greenKard__button {
+  .green-card__button {
     margin: 0 auto;
     margin-top: 20px;
     width: 306px;
@@ -2467,7 +2473,7 @@ header {
     width: 100%;
   }
 
-  .docs .docs__body>div {
+  .docs .docs__body > div {
     width: 80%;
   }
 }
@@ -2724,7 +2730,7 @@ header {
     text-align: center;
   }
 
-  .form__tourist-form .flex-container>div p {
+  .form__tourist-form .flex-container > div p {
     font-size: 14px;
   }
 }

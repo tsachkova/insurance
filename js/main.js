@@ -1,3 +1,39 @@
+let form = document.querySelector('.form__travel');
+
+if (form) {
+    form.addEventListener('focusout', (e) => {
+        if (e.target.classList.contains('date')) {
+            let dateFrom = document.querySelector('.from').querySelector('input').value;
+            let dateTo = document.querySelector('.to').querySelector('input').value;
+            let amountDays = document.querySelector('.day');
+
+            if (dateFrom === dateTo) {
+                amountDays.innerHTML = '0';
+                return;
+            }
+
+            if (new Date(dateFrom) > new Date(dateTo)) {
+                alert('Неверно ввведена дата начала или окончания поездки');
+                return;
+            }
+
+            amountDays.innerHTML = (new Date(dateTo) - new Date(dateFrom)) / 86400000;
+        }
+    })
+
+    let addTouristButton = document.querySelector('.form__add-img');
+
+    addTouristButton.addEventListener('click', (e) => {
+        let formTourist = document.querySelector('.form__tourist').lastElementChild;
+        let touristNumber = formTourist.querySelector('.form__tourist-item').innerHTML.match(/\d+/)[0];
+
+        let clone = formTourist.cloneNode(true);
+        clone.querySelector('.birfday-date-input').value = '';
+        clone.querySelector('.form__tourist-item').innerHTML = `турист ${+touristNumber + 1}`;
+
+        document.querySelector('.form__tourist').appendChild(clone);
+    })
+}
 let accordeon = document.querySelector('.accordeon');
 
 if (accordeon) {
